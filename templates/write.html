@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}List{% endblock %}
+{% block content %}
+  <br>
+  <hr class="border border-secondary border-3 opacity-75">
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">제목</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="file" class="form-control" id="inputGroupFile02">
+    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <br>
+  <button class="btn btn-outline-secondary position-absolute top-50 start-50 translate-middle" type="submit">등록하기</button>
+  <hr class="border border-secondary border-3 opacity-75">
+{% endblock %}
